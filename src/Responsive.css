@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+    /* Navigation */
+    .nav ul {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .nav-link {
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      /* Ensures nav links occupy full width for easier touch navigation */
+    }
+  
+    /* Service Cards */
+    .package-cards {
+      grid-template-columns: 1fr;
+      /* Switch to a single column for smaller screens */
+    }
+  
+    .card {
+      padding: 1rem;
+      /* Adjust padding */
+      margin-bottom: 20px;
+      /* Increase space between cards */
+    }
+  
+    .card-items,
+    .card-title,
+    .item {
+      text-align: center;
+      /* Center-align text for better readability */
+    }
+  
+    .card-title h1 {
+      font-size: var(--h3-font-size);
+      line-height: 1.75rem;
+    }
+  
+    .item p {
+      font-size: var(--small-font-size);
+      line-height: 1.25rem;
+    }
+  
+    .card-items .item p span {
+      font-size: 1rem;
+    }
+  
+    .item .check-icon,
+    .item .x-icon {
+      font-size: var(--small-font-size);
+    }
+  
+    /* Store Image */
+    .store-image {
+      max-width: 100%;
+      /* Allows images to fill the container on smaller screens */
+    }
+  
+    /* Map Container */
+    .map-container {
+      height: 200px;
+      /* Adjust the height of the map container on smaller devices */
+    }
+  }

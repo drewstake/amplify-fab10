@@ -1,0 +1,91 @@
+:root {
+
+    --white-color: #FFFFFF; /* Pure white for background */
+    --black-color: #333333; /* Soft black for excellent readability */
+    --first-color: #F78888; /* Soft coral for highlights and accents */
+    --second-color: #8F8787; /* Muted grey for less emphasized text */
+    --h1-font-size: 1.75rem; /* Larger font size for main headings */
+    --h3-font-size: 1.25rem; /* Medium font size for subheadings */
+    --small-font-size: 1.2rem; /* Small font size for less critical information */
+    --font-family: 'Open Sans', Arial, sans-serif; /* Modern, readable font family */
+}
+
+/* Start Package Section */
+.package {
+    width: 100%;
+    padding: 1rem 0; /* Consistent padding */
+    background-color: var(--main-color); /* Primary theme color */
+    border-radius: 0 300px; /* Stylish curved edge */
+}
+
+.package-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 1rem;
+  }
+
+  .card {
+    background-color: var(--white-color);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 1.5rem;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+  }
+
+.card:hover {
+    transform: scale(1.05); /* Slight increase in size on hover */
+}
+
+.card-title {
+    text-align: center; /* Centered title */
+    margin-bottom: 1.5rem; /* Spacing below the title */
+}
+
+.card-title h1 {
+    font-weight: bold; /* Bold for emphasis */
+    font-size: var(--h1-font-size); /* Large font size for visibility */
+    line-height: 2.25rem;
+    color: var(--black-color); /* Readable color for titles */
+}
+
+.card-items {
+    flex-grow: 1; /* Allows item list to fill space */
+}
+
+.item {
+    display: flex;
+    align-items: center; /* Center items vertically within each item */
+    margin-bottom: 0.5rem; /* Space between items */
+}
+
+.item p {
+    font-weight: bold; /* Bold for emphasis */
+    line-height: 1.5rem; /* Line height for readability */
+    color: var(--first-color); /* Highlight color */
+    margin-left: 0.5rem; /* Spacing after icons */
+}
+
+.card-items .item p span {
+    font-size: var(--small-font-size); /* Smaller text for less important details */
+    font-weight: 300; /* Lighter font weight */
+}
+
+.item .check-icon,
+.item .x-icon {
+    font-size: var(--h3-font-size); /* Appropriately sized icons */
+}
+
+.item .x-icon,
+.item .not {
+    color: var(--second-color); /* Secondary color for negative or absent features */
+}
+
+.item .check-icon {
+    color: var(--first-color); /* Positive features highlighted */
+}
+/* End Package Section */
