@@ -20,7 +20,7 @@ function App() {
           </Routes>
         </main>
         <footer>
-          <p>© 2024 Nail Salon Name. All rights reserved.</p>
+          <p>© 2024 Fabulous 10 Nails. All rights reserved.</p>
         </footer>
       </div>
     </Router>
