@@ -17,7 +17,7 @@ function Services() {
           <div className="card-items">
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Regular Full Set <span>$35</span></p>
+              <p>Regular Full Set <span>$40</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
