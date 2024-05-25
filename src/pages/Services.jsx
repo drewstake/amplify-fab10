@@ -25,10 +25,6 @@ function Services() {
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Coating <span>$25</span></p>
-            </div>
-            <div className="item">
-              <i className="far fa-check-square check-icon"></i>
               <p>Pink &amp; White Full Set <span>$50</span></p>
             </div>
             <div className="item">
@@ -70,36 +66,17 @@ function Services() {
         {/* Crystal */}
         <div className="card">
           <div className="card-title">
-            <h1>Crystal</h1>
+            <h1>Powder Dip</h1>
           </div>
           <div className="card-items">
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Full Set <span>$35</span></p>
-            </div>
-            <div className="item">
-              <i className="far fa-check-square check-icon"></i>
-              <p>Fill <span>$25</span></p>
+              <p>Dip Full Set <span>$40/up</span></p>
             </div>
           </div>
         </div>
 
-        {/* Silk Wraps */}
-        <div className="card">
-          <div className="card-title">
-            <h1>Silk Wraps</h1>
-          </div>
-          <div className="card-items">
-            <div className="item">
-              <i className="far fa-check-square check-icon"></i>
-              <p>Full Set <span>$40</span></p>
-            </div>
-            <div className="item">
-              <i className="far fa-check-square check-icon"></i>
-              <p>Fill <span>$25</span></p>
-            </div>
-          </div>
-        </div>
+
 
         {/* Gel */}
         <div className="card">
@@ -109,11 +86,11 @@ function Services() {
           <div className="card-items">
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Full set <span>$45</span></p>
+              <p>Full set (Gel on top) <span>$50/up</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Fill <span>$30/up</span></p>
+              <p>Fill <span>$37/up</span></p>
             </div>
           </div>
         </div>
@@ -155,7 +132,7 @@ function Services() {
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Chin <span>$10</span></p>
+              <p>Chin <span>$10/up</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
