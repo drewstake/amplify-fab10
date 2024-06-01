@@ -21,19 +21,19 @@ function Services() {
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Regular Refill</p>
+              <p>Regular Refill <span>$40</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Pink &amp; White Full Set <span>$50</span></p>
+              <p>Pink &amp; White Full Set <span>$60</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Pink &amp; White Back Fill <span>$45</span></p>
+              <p>Pink &amp; White Back Fill <span>$55</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Pink Fill <span>$30</span></p>
+              <p>Pink Fill <span>$35</span></p>
             </div>
           </div>
         </div>
@@ -50,15 +50,15 @@ function Services() {
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Gel Manicure <span>$30</span></p>
+              <p>Gel Manicure <span>$30/up</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Spa Pedicure <span>$30</span></p>
+              <p>Spa Pedicure <span>$30/up</span></p>
             </div>
             <div className="item">
               <i className="far fa-check-square check-icon"></i>
-              <p>Deluxe Pedicure <span>$45</span></p>
+              <p>Deluxe Pedicure <span>$45/up</span></p>
             </div>
           </div>
         </div>
